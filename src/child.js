@@ -83,12 +83,12 @@ function Child() {
            <span>{transobj.desc}</span>
            <span>${transobj.amount}</span>
            <span><button className='btn1' onClick={()=>handledeletion(ind)}  >X</button></span> 
-                <span>
+                {/* <span>
                    <button onClick={()=>{
                        var value=prompt("Enter Value : ");
                        console.log(value)
                    }} >edit</button> 
-                </span>
+                </span> */}
            </li> 
             )
          })}
